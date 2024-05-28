@@ -1,0 +1,388 @@
+@import url('https://fonts.cdnfonts.com/css/circular-std');
+
+body {
+    font-family: 'Circular Std', sans-serif;
+    padding-top: 60px;
+}
+
+.navbar {
+    height: 60px;
+    text-decoration-color: white;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+.navbar .navbar-brand {
+    padding: 0;
+    border: none;
+    margin: 0;
+    top: 0;
+}
+
+#home-banner1 {
+    height: 40rem;
+    background-image: url('../images/pexels-rafa-de-3013440.jpg');
+    background-size: cover;
+}
+
+#home-banner2 {
+    height: 30rem;
+    background: linear-gradient(45deg, rgba(215,215,215,1) 0%, rgba(255,246,240,1) 100%);
+}
+
+#home-banner3 {
+    height: 30rem;
+    background-image: url('../images/pexels-sergio-souza-5047850.jpg') ;
+    background-size: cover;
+}
+
+#home-reserve-button {
+    background: transparent;
+    width: 15rem;
+    height: 3rem;
+    border-color: #212529;
+    border-style: solid;
+    border-radius: 1rem;
+
+}
+
+#results-myticket-button {
+    background: transparent;
+    width: 15rem;
+    height: 3rem;
+    border-color: #355E3B;
+    border-style: solid;
+    border-radius: 1rem;
+
+}
+
+#results-myticket-button:hover {
+    background: #355E3B;
+    border-color: #355E3B;
+    color: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+#home-reserve-button:hover{
+    background: #212529;
+    border-color: #212529;
+    color: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+}
+
+#update-ticket-button {
+    background: #fccc62;
+    width:fit-content;
+    height:fit-content;
+    border-color: #fccc62;
+    border-style: solid;
+    border-radius: 1rem;
+
+}
+
+#update-ticket-button:hover {
+    background: #ffb81c;
+    border-color: #ffb81c;
+    color: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+#delete-ticket-button {
+    background: #ff9191;
+    width:fit-content;
+    height:fit-content;
+    border-color: #ff9191;
+    border-style: solid;
+    border-radius: 1rem;
+
+}
+
+#delete-ticket-button:hover {
+    background: #f74343;
+    border-color: #f74343;
+    color: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+#checkout-ticket-button {
+    background: #559ced;
+    width:fit-content;
+    height:fit-content;
+    border-color: #559ced;
+    border-style: solid;
+    border-radius: 1rem;
+
+}
+
+#checkout-ticket-button:hover {
+    background: #0b71e6;
+    border-color: #0b71e6;
+    color: white;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-out;
+
+}
+
+#reserve-banner1 {
+    background: url('../images/pexels-pixabay-302428.jpg') ;
+    background-size: cover;
+    height: 15rem;
+}
+
+#ticket-banner1 {
+    
+    height: fit-content;
+}
+
+#results-banner1 {
+    
+    height: fit-content;
+}
+
+#reserve-form {
+    height: 60rem;
+}
+#train-card {
+            
+        	padding: 10px;
+            margin: 10px;
+            width: 300px;
+            display: inline-block;
+        }
+
+.train-name {
+    font-weight: bold;
+}
+
+#success-banner1 {
+	background: linear-gradient(49deg, rgba(201,235,207,1) 0%, rgba(143,209,108,1) 100%);
+	height: 30rem;
+}
+
+#unsuccess-banner1 {
+	background: linear-gradient(49deg, rgba(235,201,201,1) 0%, rgba(209,108,108,1) 100%);
+	height: 30rem;
+}
+
+.noacnt a:hover{
+    text-decoration: underline;
+}
+
+.pwd ::placeholder{
+    color: white;
+}
+
+.fgt a:hover{
+    text-decoration: underline;
+}
+
+.signup-form1 {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    text-align: center;
+    width: 40%;
+    height: fit-content;
+    margin-left: 30%;
+    border: 2px solid;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    margin-top: -6%;
+
+}
+
+.signup-form1 p {
+    color: white;
+    font-size: small;
+}
+
+.signup-form1 a{
+    text-decoration: none;
+}
+
+.signup-form1 a:hover{
+    text-decoration: underline;
+}
+
+.signup-head1 {
+    text-align: center;
+    font-size: xx-large;
+
+    margin-top: 6%;
+    color: white;
+}
+
+.signup-bttn {
+    margin-bottom: 5%;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: lightgray;
+    width: 50%;
+    height: 35px;
+}
+
+.signup-input0 {
+    margin-top: 5%;
+}
+
+.signup-input {
+    margin-bottom: 5%;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: medium;
+    padding: 5px 10px 5px 20px;
+
+}
+
+.signup-input1 {
+    margin-bottom: 5%;
+    background: transparent;
+    border-radius: 20px;
+    border: 1px solid;
+    font-size: medium;
+    margin-left: 3%;
+    padding: 5px 10px 5px 20px;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: white;
+    background-color: gray;
+    height: 25rem;
+    margin-bottom: 0;
+}
+
+.footer > * {
+    flex:  1 100%;
+}
+
+.footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    margin-top: 1rem;
+}
+
+.footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav__title {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.footer address {
+    font-style: normal;
+    color: #999;
+}
+
+.footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(33, 33, 33, 0.07);
+    border-radius: 100px;
+
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+}
+
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer li {
+    line-height: 2em;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer__nav {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 5rem;
+}
+
+.footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+}
+
+.nav__ul a {
+    color: #999;
+}
+
+.nav__ul--extra {
+    column-count: 2;
+    column-gap: 1.25em;
+}
+
+.legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+}
+
+.legal__links {
+    display: flex;
+    align-items: center;
+}
+
+.heart {
+    color: #2f2f2f;
+}
+
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+        margin-left: auto;
+    }
+}
+
+@media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+        flex: 1;
+    }
+
+    .nav__item--extra {
+        flex-grow: 2;
+    }
+
+    .footer__addr {
+        flex: 1 0px;
+    }
+
+    .footer__nav {
+        flex: 2 0px;
+    }
+}
+

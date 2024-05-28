@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+         <!-- servlet for finding trains -->
+         <servlet>
+         	<servlet-name>findTrain</servlet-name>
+         	<servlet-class>com.train_package.Find_train_servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>findTrain</servlet-name>
+         	<url-pattern>/findTrain</url-pattern>
+         </servlet-mapping>
+         
+         <!-- servlet for inserting tickets -->
+         <servlet>
+         	<servlet-name>insertPassenger</servlet-name>
+         	<servlet-class>com.ticket_package.Ticket_reserve_servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>insertPassenger</servlet-name>
+         	<url-pattern>/insertPassenger</url-pattern>
+         </servlet-mapping>
+         
+         <!-- servlet for displaying tickets -->
+         <servlet>
+         	<servlet-name>showTicket</servlet-name>
+         	<servlet-class>com.ticket_package.Ticket_display_servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>showTicket</servlet-name>
+         	<url-pattern>/showTicket</url-pattern>
+         </servlet-mapping>
+         
+         <!-- servlet for updating tickets -->
+         <servlet>
+         	<servlet-name>updateTicket</servlet-name>
+         	<servlet-class>com.ticket_package.Ticket_update_servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>updateTicket</servlet-name>
+         	<url-pattern>/updateTicket</url-pattern>
+         </servlet-mapping>
+         
+         <!-- servlet for deleting tickets -->
+         <servlet>
+         	<servlet-name>deleteTicket</servlet-name>
+         	<servlet-class>com.ticket_package.Ticket_delete_servlet</servlet-class>
+         </servlet>
+         <servlet-mapping>
+         	<servlet-name>deleteTicket</servlet-name>
+         	<url-pattern>/deleteTicket</url-pattern>
+         </servlet-mapping>
+         
+</web-app>
